@@ -26,5 +26,17 @@ namespace Online_Recipe_Book
         {
             this.InitializeComponent();
         }
+
+        //Upload A Recipe to the Cloud
+        private void UploadButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        //Fetch A Recipe from the Cloud
+        private void FetchButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
