@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Online_Recipe_Book.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Online_Recipe_Book"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Orange">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" TextAlignment="Center">Online Recipe Book</TextBlock>
+        <TextBlock Grid.Row="1" TextAlignment="Center">Ingridients</TextBlock>
+        <TextBox Grid.Row="2"></TextBox>
+        <TextBlock Grid.Row="3" TextAlignment="Center">Steps</TextBlock>
+        <TextBox Grid.Row="4"></TextBox>
+        <Button Grid.Row="5" Margin="50,50,0,35" Width="100" Height="30" Background="Gray">Submit</Button>
+        <Button Grid.Row="5" Margin="200,50,0,35" Width="100" Height="30" Background="Gray">Retrieve</Button>
+
+    </Grid>
+</Page>
+
