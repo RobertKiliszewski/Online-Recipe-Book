@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -24,10 +25,34 @@ namespace Online_Recipe_Book
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private IMobileServiceTable<Recipes> recipesTable = App.MobileService.GetTable<Recipes>();
+        private static MobileServiceCollection<Recipes, Recipes> recipes;
+
         public MainPage()
         {
             this.InitializeComponent();
         }
-        
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Recipes item = new Recipes
+            {
+                title = titleBox.Text,
+                ingredients = ingredientsBox.Text ,
+                steps = stepsBox.Text
+            };
+            await recipesTable.InsertAsync(item);
+        }
+
+        private async void Button_Click_1Async(object sender, RoutedEventArgs e)
+        {
+            recipes = await recipesTable.Take(5).ToCollectionAsync();
+            this.Frame.Navigate(typeof(Display));
+        }
+
+        public static MobileServiceCollection<Recipes, Recipes> getRecipes()
+        {
+            return recipes;
+        }
     }
 }

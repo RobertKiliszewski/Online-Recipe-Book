@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e816de2c-57f3-491d-ae2f-6ae67bf6fec6</PackageIdentityName>
     <PackageIdentityPublisher>CN=46B875B4-EBF4-433C-A2CE-C3B75B5C1D39</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.exe">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.exe">
       <PackagePath>entrypoint\Online-Recipe-Book.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robert\.nuget\packages\microsoft.azure.mobile.client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
@@ -385,47 +385,47 @@
     <AppxPackagedFile Include="C:\Users\Robert\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.xr.xml">
       <PackagePath>Online-Recipe-Book.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Core\Online-Recipe-Book.exe">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Core\Online-Recipe-Book.exe">
       <PackagePath>Online-Recipe-Book.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

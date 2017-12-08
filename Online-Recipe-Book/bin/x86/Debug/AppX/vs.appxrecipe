@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e816de2c-57f3-491d-ae2f-6ae67bf6fec6</PackageIdentityName>
     <PackageIdentityPublisher>CN=46B875B4-EBF4-433C-A2CE-C3B75B5C1D39</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>865BB474D3770FD3B8683AAF1B2B47B4815402F202A3F262BE9DE4809EA89FE9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>14282RobertKiliszewski.Online-Recipe-Book_1.1.0.0_x86__edc04ftpxf6bc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>14282RobertKiliszewski.Online-Recipe-Book_edc04ftpxf6bc!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-08T22:11:53.833</Modified>
+      <Modified>2017-12-08T23:48:48.210</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.exe">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.exe">
       <PackagePath>entrypoint\Online-Recipe-Book.exe</PackagePath>
-      <Modified>2017-12-08T22:11:38.592</Modified>
+      <Modified>2017-12-08T23:48:36.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robert\.nuget\packages\microsoft.azure.mobile.client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -515,60 +515,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-12-06T11:32:20.772</Modified>
+      <Modified>2017-12-06T11:32:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T14:26:01.564</Modified>
+      <Modified>2017-12-05T14:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Online-Recipe-Book.xr.xml">
       <PackagePath>Online-Recipe-Book.xr.xml</PackagePath>
-      <Modified>2017-12-08T22:11:36.654</Modified>
+      <Modified>2017-12-08T23:22:52.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-26T09:55:26.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-08T22:11:49.442</Modified>
+      <Modified>2017-12-08T23:48:45.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book\Online-Recipe-Book\bin\x86\Debug\Core\Online-Recipe-Book.exe">
+    <AppxPackagedFile Include="C:\Users\Robert\Desktop\Online-Recipe-Book 1\Online-Recipe-Book\bin\x86\Debug\Core\Online-Recipe-Book.exe">
       <PackagePath>Online-Recipe-Book.exe</PackagePath>
-      <Modified>2017-12-08T22:11:53.805</Modified>
+      <Modified>2017-12-08T23:48:48.194</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

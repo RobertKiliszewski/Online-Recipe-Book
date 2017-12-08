@@ -11,6 +11,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30" />
             <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
             <RowDefinition Height="200" />
             <RowDefinition Height="30" />
             <RowDefinition Height="200" />
@@ -19,12 +21,14 @@
 
 
         <TextBlock Grid.Row="0" TextAlignment="Center">Online Recipe Book</TextBlock>
-        <TextBlock Grid.Row="1" TextAlignment="Center">Ingridients</TextBlock>
-        <TextBox Grid.Row="2"></TextBox>
-        <TextBlock Grid.Row="3" TextAlignment="Center">Steps</TextBlock>
-        <TextBox Grid.Row="4"></TextBox>
-        <Button Grid.Row="5" Margin="50,50,0,35" Width="100" Height="30" Background="Gray">Submit</Button>
-        <Button Grid.Row="5" Margin="200,50,0,35" Width="100" Height="30" Background="Gray">Retrieve</Button>
+        <TextBlock Grid.Row="1" TextAlignment="Center">Name</TextBlock>
+        <TextBox Grid.Row="2" Name="titleBox"></TextBox>
+        <TextBlock Grid.Row="3" TextAlignment="Center">Ingridients</TextBlock>
+        <TextBox Grid.Row="4" Name="ingredientsBox"></TextBox>
+        <TextBlock Grid.Row="5" TextAlignment="Center">Steps</TextBlock>
+        <TextBox Grid.Row="6" Name="stepsBox"></TextBox>
+        <Button Grid.Row="7" Margin="50,20,0,40" Width="100" Height="30" Background="Gray" Click="Button_Click">Submit</Button>
+        <Button Grid.Row="7" Margin="200,20,0,40" Width="100" Height="30" Background="Gray" Click="Button_Click_1Async">Retrieve</Button>
 
     </Grid>
 </Page>

@@ -26384,11 +26384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book\\Online-Recipe-Book\\Online-Recipe-Book.csproj",
+      "projectUniqueName": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book 1\\Online-Recipe-Book\\Online-Recipe-Book.csproj",
       "projectName": "Online-Recipe-Book",
-      "projectPath": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book\\Online-Recipe-Book\\Online-Recipe-Book.csproj",
+      "projectPath": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book 1\\Online-Recipe-Book\\Online-Recipe-Book.csproj",
       "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book\\Online-Recipe-Book\\obj\\",
+      "outputPath": "C:\\Users\\Robert\\Desktop\\Online-Recipe-Book 1\\Online-Recipe-Book\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
