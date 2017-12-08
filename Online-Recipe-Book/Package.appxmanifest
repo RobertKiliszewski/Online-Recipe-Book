@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3be3e7c0-048d-4d2e-8b4a-b3648b7c92c6"
+    Name="26d936c4-cadf-4724-9dea-10f0582a7d15"
     Publisher="CN=Robert"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="3be3e7c0-048d-4d2e-8b4a-b3648b7c92c6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="26d936c4-cadf-4724-9dea-10f0582a7d15" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Online-Recipe-Book</DisplayName>

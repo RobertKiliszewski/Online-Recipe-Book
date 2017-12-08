@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -13,7 +14,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Online_Recipe_Book
 {
@@ -26,17 +28,6 @@ namespace Online_Recipe_Book
         {
             this.InitializeComponent();
         }
-
-        //Upload A Recipe to the Cloud
-        private void UploadButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        //Fetch A Recipe from the Cloud
-        private void FetchButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }

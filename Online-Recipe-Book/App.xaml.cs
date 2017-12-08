@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Online_Recipe_Book
 {
@@ -22,6 +23,13 @@ namespace Online_Recipe_Book
     /// </summary>
     sealed partial class App : Application
     {
+
+        // This MobileServiceClient has been configured to communicate with the Azure Mobile Service and
+        // Azure Gateway using the application url. You're all set to start working with your Mobile Service!
+        public static Microsoft.WindowsAzure.MobileServices.MobileServiceClient onlinerecipebookClient = new Microsoft.WindowsAzure.MobileServices.MobileServiceClient(
+        "https://onlinerecipebook.azurewebsites.net");
+
+        public static MobileServiceClient MobileService =  new MobileServiceClient( "https://onlinerecipebook.azurewebsites.net");
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -30,6 +38,8 @@ namespace Online_Recipe_Book
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+
         }
 
         /// <summary>
@@ -39,12 +49,6 @@ namespace Online_Recipe_Book
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-#if DEBUG
-            if (System.Diagnostics.Debugger.IsAttached)
-            {
-                this.DebugSettings.EnableFrameRateCounter = true;
-            }
-#endif
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
@@ -102,5 +106,8 @@ namespace Online_Recipe_Book
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
-    }
+
+
+
+      }
 }

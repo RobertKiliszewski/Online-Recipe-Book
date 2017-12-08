@@ -7,15 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="DarkGray">
-        <TextBox x:Name="IngridientsTextBox" HorizontalAlignment="Left" Height="196" Margin="24,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314"/>
-        <TextBox x:Name="StepsTextBox" HorizontalAlignment="Left" Height="196" Margin="24,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314"/>
-       
-        <Button x:Name="UploadButton" Background="Gray" Content="Upload" HorizontalAlignment="Left" Margin="30,494,0,0" VerticalAlignment="Top" Width="300" Click="UploadButton_Click"/>
-        <Button x:Name="FetchButton" Background="Gray" Content="Fetch" HorizontalAlignment="Left" Margin="30,552,0,0" VerticalAlignment="Top" Width="300" Click="FetchButton_Click"/>
-        
-        <TextBlock x:Name="IngridientBox" HorizontalAlignment="Left" Margin="24,9,0,0" TextWrapping="Wrap" Text="Ingridients" VerticalAlignment="Top" Width="131"/>
-        <TextBlock x:Name="StepsBox" HorizontalAlignment="Left" Margin="24,241,0,0" TextWrapping="Wrap" Text="Steps" VerticalAlignment="Top" Width="131"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     </Grid>
 </Page>
